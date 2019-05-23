@@ -13,7 +13,14 @@ int main(){
         
         nodespace::LList mylist;
         mylist.append(4);
+        mylist.functionIMadeForPrinting();
         mylist.clear();
+        mylist.functionIMadeForPrinting();
+        mylist.append(4);
+        mylist.append(4);
+        mylist.remove(4);
+        mylist.functionIMadeForPrinting();
+        //mylist.insert(999, 2);
         // Frequency left to implement
 
         return 0;
