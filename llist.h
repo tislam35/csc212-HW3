@@ -38,6 +38,10 @@ namespace nodespace{
         node* operator[] (size_t ind);
         node& operator = (node::value_type i);
 
+        //added for help
+        const std::size_t getLength();
+        void functionIMadeForPrinting();
+
     private:
         node* head_ptr;
         node* tail_ptr;
